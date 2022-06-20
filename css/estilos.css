@@ -77,15 +77,54 @@
   color: white;
 }
 
-.card {
-  justify-content: center;
-  align-items: center;
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+
+.bg,
+.overlay {
   text-align: center;
 }
-.card h5 {
-  margin-top: 50%;
+
+img,
+.overlay {
+  transition: 0.3s all;
+}
+
+.bg {
+  position: relative;
+}
+.bg img {
+  width: 100%;
+}
+.bg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  opacity: 0;
+}
+.bg .overlay h5 {
+  padding-top: 50%;
   font-family: "Bahnschrift";
   color: white;
+}
+.bg .overlay p {
+  font-family: "Bahnschrift";
+  color: white;
+}
+.bg:hover .overlay {
+  opacity: 1;
+}
+.bg:hover img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
 }
 
 /*# sourceMappingURL=estilos.css.map */

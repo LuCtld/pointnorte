@@ -92,15 +92,64 @@
 }
 
 //cards
-.card{
-    justify-content: center;
-    align-items: center;
+
+
+$bg: rgba(0, 0, 0, 0.2);
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+.bg,
+.overlay {
     text-align: center;
 
-    h5{
-        margin-top: 50%;
+}
+
+img,
+.overlay {
+    transition: .3s all;
+
+}
+
+.bg {
+    position: relative;
+
+
+    img {
+    width: 100%;
+    }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: $bg;
+    color: #fff;
+    opacity: 0;
+
+    h5 {
+    padding-top: 50%;
+    font-family:$tipo-secundaria;
+    color: white;
+    }
+    p {
         font-family:$tipo-secundaria;
         color: white;
     }
-
+}
+    &:hover {
+    .overlay {
+        opacity: 1;
+    }
+        img {
+        -webkit-filter: blur(2px);
+        filter: blur(2px);
+    }
+}
 }

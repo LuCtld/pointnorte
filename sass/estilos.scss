@@ -78,10 +78,29 @@
     }
 }
 
-.secciontiendaindex{
+.container-fluid{
     background-color: black;
     margin-top: 0.5%;
-    img{
-        width: 100%;
+    background-image: url(../assets/images/backconlogo.png);
+
+    .titulos-principales{
+        padding: 1%;
+        font-family: $tipo-primaria;
+        color: white;
     }
+
+}
+
+//cards
+.card{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h5{
+        margin-top: 50%;
+        font-family:$tipo-secundaria;
+        color: white;
+    }
+
 }

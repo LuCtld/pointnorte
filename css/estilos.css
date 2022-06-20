@@ -66,12 +66,26 @@
   width: 10%;
 }
 
-.secciontiendaindex {
+.container-fluid {
   background-color: black;
   margin-top: 0.5%;
+  background-image: url(../assets/images/backconlogo.png);
 }
-.secciontiendaindex img {
-  width: 100%;
+.container-fluid .titulos-principales {
+  padding: 1%;
+  font-family: "Ethnocentric";
+  color: white;
+}
+
+.card {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card h5 {
+  margin-top: 50%;
+  font-family: "Bahnschrift";
+  color: white;
 }
 
 /*# sourceMappingURL=estilos.css.map */

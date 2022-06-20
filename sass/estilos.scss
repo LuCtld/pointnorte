@@ -1,0 +1,87 @@
+//General
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Colores
+@import "color.scss";
+
+//Tipos
+@import "tipografias.scss";
+
+//Navbar
+
+.fondonavbar{
+    background-color: black;
+    padding:1%;
+
+    a{
+        font-family:$tipo-secundaria;
+        color: white;
+        
+        &:hover{
+            color:$color-celeste}
+
+        &:focus{
+            color: gray;
+        }    
+    }
+
+    .navbar-nav{
+        margin-left: 20%;
+    }
+
+    .btn{
+        background-color: $color-celeste;
+        font-family:$tipo-secundaria;
+        color: white;
+    }
+
+    .navbar-toggler-icon{
+        background-image: url(../assets/images/menu.png);
+        }
+    }
+
+    .carrito{
+        margin-top: 10%;
+        margin-bottom: 5%;
+
+        .carritoceleste{
+            display: none;
+        }
+        
+        &:hover{
+            .carritoblanco{
+                display: none;
+            }
+            .carritoceleste{
+                display:inline;
+            }
+    }
+}
+
+//Index
+.carrusel{
+    margin-top: 0.5%;
+
+    .carousel-indicators{
+        width: 10%;
+        margin-left: 45%;
+    }
+    .carousel-control-prev-icon{
+        width: 10%;
+    }
+    .carousel-control-next-icon{
+        width: 10%;
+    }
+}
+
+.secciontiendaindex{
+    background-color: black;
+    margin-top: 0.5%;
+    img{
+        width: 100%;
+    }
+}

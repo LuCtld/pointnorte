@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Bahnschrift";
+  src: url(../assets/font/bahnschrift.ttf);
+}
+@font-face {
+  font-family: "Ethnocentric";
+  src: url(../assets/font/ethnocentric\ rg.otf);
+}
+.fondonavbar {
+  background-color: black;
+  padding: 1%;
+}
+.fondonavbar a {
+  font-family: "Bahnschrift";
+  color: white;
+}
+.fondonavbar a:hover {
+  color: #01C3D1;
+}
+.fondonavbar a:focus {
+  color: gray;
+}
+.fondonavbar .navbar-nav {
+  margin-left: 20%;
+}
+.fondonavbar .btn {
+  background-color: #01C3D1;
+  font-family: "Bahnschrift";
+  color: white;
+}
+.fondonavbar .navbar-toggler-icon {
+  background-image: url(../assets/images/menu.png);
+}
+
+.carrito {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.carrito .carritoceleste {
+  display: none;
+}
+.carrito:hover .carritoblanco {
+  display: none;
+}
+.carrito:hover .carritoceleste {
+  display: inline;
+}
+
+.carrusel {
+  margin-top: 0.5%;
+}
+.carrusel .carousel-indicators {
+  width: 10%;
+  margin-left: 45%;
+}
+.carrusel .carousel-control-prev-icon {
+  width: 10%;
+}
+.carrusel .carousel-control-next-icon {
+  width: 10%;
+}
+
+.secciontiendaindex {
+  background-color: black;
+  margin-top: 0.5%;
+}
+.secciontiendaindex img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

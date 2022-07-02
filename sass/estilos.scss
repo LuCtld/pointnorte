@@ -17,13 +17,16 @@
     background-color: black;
     padding:1%;
 
+
     a{
         font-family:$tipo-secundaria;
         font-size: small;
         color: white;
-        
+
         &:hover{
-            color:$color-celeste}
+            color:$color-celeste;
+        }
+            
 
         &:focus{
             color: gray;
@@ -103,6 +106,9 @@
     justify-content: center;
 
 }
+.container-fluid-negro{
+    background-color: black;
+}
 
 //cards
 
@@ -179,11 +185,90 @@ img,
 //videos
 
 .video{
-    margin-left: 3%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    margin: 3% 3% 3% 3% ;
 
 
+    iframe{
+        width: 100%;
+    }
+}
+
+//mareas
+
+.botontabla{
+    margin: 3% 40% 3% 40%;
+}
+
+//Footer
+.footup{
+    padding: 2% 0% 1% 35%;
+    p{
+        font-family: $tipo-secundaria;
+        color: white;
+    }
+}
+
+.footdown{
+    padding: 2% 0% 0% 2%;
+
+    a{
+        text-decoration: none;
+    }
+
+    h6{
+        font-family: $tipo-secundaria;
+        color: white;
+        margin-top: 5%;
+
+    }
+
+    p{
+        font-family: $tipo-secundaria;
+        color: white;
+        margin-top: 3%;
+    }
+
+    .contactanos{
+        margin-top: 10%;
+    }
+
+    .whatsapp{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        p{
+            padding-left: 2%;
+        }
+    }
+
+    .mail{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        p{
+            padding-left: 2%;
+        }
+    }
+
+    .ubicacion{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        p{
+            padding-left: 2%;
+        }
+    }
+
+    h4{
+        font-family: $tipo-primaria;
+        color: white;
+        font-size: large;
+        margin-top: 3%;
+    }
+
+    .item{
+        padding: 0;
+    }
 
 
 }

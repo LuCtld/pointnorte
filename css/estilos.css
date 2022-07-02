@@ -88,6 +88,10 @@
   justify-content: center;
 }
 
+.container-fluid-negro {
+  background-color: black;
+}
+
 *,
 *:before,
 *:after {
@@ -147,9 +151,75 @@ img,
 }
 
 .video {
-  margin-left: 3%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  margin: 3% 3% 3% 3%;
+}
+.video iframe {
+  width: 100%;
+}
+
+.botontabla {
+  margin: 3% 40% 3% 40%;
+}
+
+.footup {
+  padding: 2% 0% 1% 35%;
+}
+.footup p {
+  font-family: "Bahnschrift";
+  color: white;
+}
+
+.footdown {
+  padding: 2% 0% 0% 2%;
+}
+.footdown a {
+  text-decoration: none;
+}
+.footdown h6 {
+  font-family: "Bahnschrift";
+  color: white;
+  margin-top: 5%;
+}
+.footdown p {
+  font-family: "Bahnschrift";
+  color: white;
+  margin-top: 3%;
+}
+.footdown .contactanos {
+  margin-top: 10%;
+}
+.footdown .whatsapp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footdown .whatsapp p {
+  padding-left: 2%;
+}
+.footdown .mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footdown .mail p {
+  padding-left: 2%;
+}
+.footdown .ubicacion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footdown .ubicacion p {
+  padding-left: 2%;
+}
+.footdown h4 {
+  font-family: "Ethnocentric";
+  color: white;
+  font-size: large;
+  margin-top: 3%;
+}
+.footdown .item {
+  padding: 0;
 }
 
 /*# sourceMappingURL=estilos.css.map */

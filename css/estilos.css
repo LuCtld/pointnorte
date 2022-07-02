@@ -151,5 +151,8 @@ img,
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.video iframe {
+  width: 100%;
+}
 
 /*# sourceMappingURL=estilos.css.map */

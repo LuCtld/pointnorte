@@ -19,6 +19,7 @@
 
     a{
         font-family:$tipo-secundaria;
+        font-size: small;
         color: white;
         
         &:hover{
@@ -30,7 +31,7 @@
     }
 
     .navbar-nav{
-        margin-left: 20%;
+        margin-left: 27%;
     }
 
     .btn{
@@ -84,17 +85,29 @@
     background-image: url(../assets/images/backconlogo.png);
 
     .titulos-principales{
-        padding: 1%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+        padding-left: 1%;
         font-family: $tipo-primaria;
+        font-size:xx-large;
         color: white;
+    
     }
+
+}
+
+.container-fluid-blanco{
+    background-color: white;
+    margin-top: 0.5%;
+    background-image: url(../assets/images/backconlogoblanco.jpg);
+    justify-content: center;
 
 }
 
 //cards
 
 
-$bg: rgba(0, 0, 0, 0.2);
+$bg: rgba(0, 0, 0, 0.6);
 
 *,
 *:before,
@@ -153,3 +166,23 @@ img,
     }
 }
 }
+
+.card{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    background-color:transparent;
+    border: none;
+
+}
+
+//videos
+
+.video{
+    margin-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+}
+

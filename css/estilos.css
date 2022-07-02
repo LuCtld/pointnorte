@@ -18,6 +18,7 @@
 }
 .fondonavbar a {
   font-family: "Bahnschrift";
+  font-size: small;
   color: white;
 }
 .fondonavbar a:hover {
@@ -27,7 +28,7 @@
   color: gray;
 }
 .fondonavbar .navbar-nav {
-  margin-left: 20%;
+  margin-left: 27%;
 }
 .fondonavbar .btn {
   background-color: #01C3D1;
@@ -72,9 +73,19 @@
   background-image: url(../assets/images/backconlogo.png);
 }
 .container-fluid .titulos-principales {
-  padding: 1%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 1%;
   font-family: "Ethnocentric";
+  font-size: xx-large;
   color: white;
+}
+
+.container-fluid-blanco {
+  background-color: white;
+  margin-top: 0.5%;
+  background-image: url(../assets/images/backconlogoblanco.jpg);
+  justify-content: center;
 }
 
 *,
@@ -106,7 +117,7 @@ img,
   left: 0;
   bottom: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.6);
   color: #fff;
   opacity: 0;
 }
@@ -125,6 +136,20 @@ img,
 .bg:hover img {
   -webkit-filter: blur(2px);
   filter: blur(2px);
+}
+
+.card {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  background-color: transparent;
+  border: none;
+}
+
+.video {
+  margin-left: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 /*# sourceMappingURL=estilos.css.map */

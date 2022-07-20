@@ -40,9 +40,13 @@ function quePrecioBusca (quePrecio, mayorprecio, menorprecio){
         alert (" Tenemos Parafinas Base $400 y Winter $500");
         console.log (menorprecio);
         } 
-        else {
+    if (quePrecio.toLowerCase() == "mayor"){
         alert ("Tenemos Parafinas Summer $1350 y Ultra $1450");
         console.log (mayorprecio);
+    }
+    else {
+        alert ("No es una respuesta válida");
+        breack;
     }
 
 }

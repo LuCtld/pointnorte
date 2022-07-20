@@ -36,17 +36,17 @@ const menorprecio = listadoParafinas.filter ((Producto) => Producto.precio > 100
 let quePrecio = prompt ("Bienvenido! buscas productos con precio mayor o menor a $1000?")
 
 function quePrecioBusca (quePrecio, mayorprecio, menorprecio){
-    if (quePrecio.toLowerCase() == "menor"){
+    if (quePrecio.toLowerCase() === "menor"){
         alert (" Tenemos Parafinas Base $400 y Winter $500");
         console.log (menorprecio);
         } 
-    if (quePrecio.toLowerCase() == "mayor"){
+    else if (quePrecio.toLowerCase() === "mayor"){
         alert ("Tenemos Parafinas Summer $1350 y Ultra $1450");
         console.log (mayorprecio);
     }
     else {
         alert ("No es una respuesta válida");
-        breack;
+            breack;
     }
 
 }
